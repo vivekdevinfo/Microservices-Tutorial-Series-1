@@ -10,9 +10,6 @@ public interface UserService {
 
     //create
     User saveUser(User user);
-
-    public String greeting();
-
     //get all user
     List<User> getAllUser();
 

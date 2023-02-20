@@ -41,11 +41,6 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public String greeting() {
-        return "Hello Vivek !!";
-    }
-
-    @Override
     public List<User> getAllUser() {
         //implement RATING SERVICE CALL: USING REST TEMPLATE
         return userRepository.findAll();
