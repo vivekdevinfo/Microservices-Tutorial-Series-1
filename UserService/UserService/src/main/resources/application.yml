@@ -5,7 +5,7 @@ spring:
   application:
     name: USER-SERVICE
   datasource:
-    url: jdbc:mysql://localhost:3307/microservices
+    url: jdbc:mysql://localhost:3306/microservices
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -24,19 +24,19 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri:  https://dev-77584981.okta.com/oauth2/default
+          issuer-uri:  https://dev-71246081.okta.com/oauth2/default
       client:
         registration:
           my-internal-client:
             provider: okta
             authorization-grant-type: client_credentials
             scope: internal
-            client-id: 0oa7w65a24Px9Oyms5d7
-            client-secret: JfsTTqODW21uapbbhKjW42sGzjcNs86GN7WL5dfU
+            client-id: 0oa88faiopUOADEm85d7
+            client-secret: 3w-I-3qFcBiMJD9kW0yKG9YRTrnA24Tn_-RgvlaD
 
         provider:
           okta:
-            issuer-uri:  https://dev-77584981.okta.com/oauth2/default
+            issuer-uri:  https://dev-71246081.okta.com/oauth2/default
 
 
 

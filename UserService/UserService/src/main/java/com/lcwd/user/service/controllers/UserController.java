@@ -24,6 +24,12 @@ public class UserController {
 
     private Logger logger = LoggerFactory.getLogger(UserController.class);
 
+@GetMapping ("/wish")
+    public String greeting()
+    {
+        return userService.greeting();
+
+    }
     //create
     @PostMapping
     public ResponseEntity<User> createUser(@RequestBody User user) {

@@ -41,8 +41,8 @@ eureka:
 
 okta:
   oauth2:
-    issuer: https://dev-77584981.okta.com/oauth2/default
+    issuer: https://dev-71246081.okta.com/oauth2/default
     audience: api://default
-    client-id: 0oa7w65a24Px9Oyms5d7
-    client-secret: JfsTTqODW21uapbbhKjW42sGzjcNs86GN7WL5dfU
+    client-id: 0oa88faiopUOADEm85d7
+    client-secret: 3w-I-3qFcBiMJD9kW0yKG9YRTrnA24Tn_-RgvlaD
     scopes: openid, profile, email, offline_access
